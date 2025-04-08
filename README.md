@@ -9,7 +9,7 @@
 [![Cypress.io](https://img.shields.io/badge/tested%20with-Cypress-04C38E.svg)](https://www.cypress.io/)
 
 ```bash
-Step 1: git clone 
+Step 1: git clone git@github.com:kapinsk13/VismaCypressTest.git
 
 Step 2: npm install
 
