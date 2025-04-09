@@ -8,7 +8,7 @@ describe('Paziņojumu portāla tests', () => {
         pazinojumaPortalaPage.pogaSakums().should('be.visible');
     });
 
-    it('Izveidot jaunu ierakstu ar nākotnes datumu', () => {
+    it('Izveidot jaunu paziņojumu ar nākotnes datumu', () => {
 
         const testaDati = {
           pazinojumaVirsraksts: 'Automātiskā testa paziņojums aktīvs!',
@@ -23,7 +23,7 @@ describe('Paziņojumu portāla tests', () => {
     });
 
 
-    it('Izveidot jaunu ierakstu ar pagātnes datumu datumu', () => {
+    it('Izveidot jaunu paziņojumu ar pagātnes datumu', () => {
         const testaDati = {
             pazinojumaVirsraksts: 'Automātiskā testa paziņojums neaktīvs!',
             dienasNaktone: -5,
