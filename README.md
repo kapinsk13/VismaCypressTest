@@ -9,15 +9,15 @@
 [![Cypress.io](https://img.shields.io/badge/tested%20with-Cypress-04C38E.svg)](https://www.cypress.io/)
 
 ```bash
-Step 1: git clone git@github.com:kapinsk13/VismaCypressTest.git
+Step 1: npm install cypress --save-dev
 
-Step 2: npm install
+Step 2: git clone git@github.com:kapinsk13/VismaCypressTest.git
 
-Step 3: npm install cypress --save-dev
+Step 3: npm install
 
 Step 4: start test runner with command: 
-npx npx cypress open (Opens Cypress in the interactive GUI) 
-npx npx cypress run (Runs Cypress tests from the CLI without the GUI)
+npx cypress open (Opens Cypress in the interactive GUI) 
+npx cypress run (Runs Cypress tests from the CLI without the GUI)
 add --help in the end of the command to get more info about options
 
 ```
